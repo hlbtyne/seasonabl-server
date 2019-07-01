@@ -24,4 +24,9 @@ class ApplicationController < ActionController::API
     def secret
         "shh"
     end
+
+    def self.update_recipes
+        api = API.new
+        data = api.get_recipes
+    end
 end

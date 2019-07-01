@@ -715,3 +715,23 @@ seasons = [
 # harriet = User.create(name: "Harriet", password: "harriet")
 # dunia = User.create(name: "Dunia", password: "dunia")
 # xabi = User.create(name: "Xabi", password: "xabi")
+
+# ShoppingListItem.destroy_all
+
+# ShoppingListItem.create(user_id: 1, food_id: 252)
+# ShoppingListItem.create(user_id: 1, food_id: 271)
+# ShoppingListItem.create(user_id: 1, food_id: 272)
+# ShoppingListItem.create(user_id: 1, food_id: 301)
+# ShoppingListItem.create(user_id: 1, food_id: 300)
+# ShoppingListItem.create(user_id: 1, food_id: 310)
+
+# ShoppingListItem.create(user_id: 2, food_id: 311)
+# ShoppingListItem.create(user_id: 2, food_id: 215)
+# ShoppingListItem.create(user_id: 2, food_id: 218)
+
+# ShoppingListItem.create(user_id: 3, food_id: 224)
+# ShoppingListItem.create(user_id: 3, food_id: 230)
+# ShoppingListItem.create(user_id: 3, food_id: 249)
+# ShoppingListItem.create(user_id: 3, food_id: 240)
+# ShoppingListItem.create(user_id: 3, food_id: 300)
+

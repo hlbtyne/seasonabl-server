@@ -17,7 +17,7 @@ foods = [
     {name: "Carrot", image:"https://images.unsplash.com/photo-1447175008436-054170c2e979?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1161&q=80"},
     {name: "Cauliflower", image:"https://images.unsplash.com/photo-1510627498534-cf7e9002facc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"},
     {name: "Cavolo nero", image:"https://gbc-cdn-public-media.azureedge.net/img74757.1426x713.jpg"},
-    {name: "Celeriac", image:"https://anappleaday.net.au/wp-content/uploads/2014/06/Celeriac-Sage-Mash.png"},
+    {name: "Celeriac", image:"https://img.crocdn.co.uk/images/products2/pl/20/00/01/47/pl2000014706.jpg?width=940&height=940"},
     {name: "Celery", image:"https://cdn1.medicalnewstoday.com/content/images/articles/270/270678/celery.jpg"},
     {name: "Cherry", image:"https://images.unsplash.com/photo-1520236060906-9c5ed525b025?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
     {name: "Chervil", image:"https://cdn11.bigcommerce.com/s-2ba96/images/stencil/1200x1800/products/748/1254/ChervilPlantFreak__96938.1458334645.jpg?c=2"},
@@ -87,7 +87,7 @@ foods = [
     {name: "Salmon", image:"https://images.unsplash.com/photo-1499125562588-29fb8a56b5d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"},
     {name: "Salsify", image:"https://www.heligan.com/images/uploads/_DSC7797.jpg"},
     {name: "Samphire", image:"https://www.runnymedehotel.com/wp-content/uploads/2017/07/Samphire--1200x795.jpg"},
-    {name: "Sorrel", image:"https://www.thespruce.com/thmb/QJbh5LBm5iN17J0_TIlVNjk3LEo=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/Sorrel-593fadd35f9b58d58a861b9c.jpg"},
+    {name: "Sorrel", image:"https://q7i2y6d5.stackpathcdn.com/wp-content/uploads/2011/07/sorrel-1-400x267.jpg"},
     {name: "Spinach", image:"https://images.unsplash.com/photo-1515363578674-99f41329ab4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80"},
     {name: "Spring greens", image:"https://www.abelandcole.co.uk/media/6377_15062_m.jpg"},
     {name: "Spring onion", image:"https://images.pexels.com/photos/315696/pexels-photo-315696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
@@ -694,44 +694,41 @@ seasons = [
     }
 ]
 
-# foods.each do |food|
-#     Food.create(name: food[:name], image: food[:image])
-# end
+foods.each do |food|
+    Food.create(name: food[:name], image: food[:image])
+end
 
-# months.each do |month|
-#     Month.create(name: month)
-# end
+months.each do |month|
+    Month.create(name: month)
+end
 
-# seasons.each do |season|
-#     this_month = Month.all.find{ |month| month[:name] == season[:month] }
-#     m_id = this_month[:id]
-#     season[:foods].each do |food|
-#         this_food = Food.all.find{ |f| f[:name] == food }
-#         f_id = this_food[:id]
-#         FoodMonth.create(food_id: f_id, month_id: m_id)
-#     end
-# end
+seasons.each do |season|
+    this_month = Month.all.find{ |month| month[:name] == season[:month] }
+    m_id = this_month[:id]
+    season[:foods].each do |food|
+        this_food = Food.all.find{ |f| f[:name] == food }
+        f_id = this_food[:id]
+        FoodMonth.create(food_id: f_id, month_id: m_id)
+    end
+end
 
-# harriet = User.create(name: "Harriet", password: "harriet")
-# dunia = User.create(name: "Dunia", password: "dunia")
-# xabi = User.create(name: "Xabi", password: "xabi")
+harriet = User.create(name: "Harriet", password: "harriet")
+dunia = User.create(name: "Dunia", password: "dunia")
+xabi = User.create(name: "Xabi", password: "xabi")
 
-# ShoppingListItem.destroy_all
+ShoppingListItem.create(user_id: 1, food_id: 7)
+ShoppingListItem.create(user_id: 1, food_id: 12)
+ShoppingListItem.create(user_id: 1, food_id: 14)
+ShoppingListItem.create(user_id: 1, food_id: 35)
+ShoppingListItem.create(user_id: 1, food_id: 46)
+ShoppingListItem.create(user_id: 1, food_id: 13)
 
-# ShoppingListItem.create(user_id: 1, food_id: 252)
-# ShoppingListItem.create(user_id: 1, food_id: 271)
-# ShoppingListItem.create(user_id: 1, food_id: 272)
-# ShoppingListItem.create(user_id: 1, food_id: 301)
-# ShoppingListItem.create(user_id: 1, food_id: 300)
-# ShoppingListItem.create(user_id: 1, food_id: 310)
+ShoppingListItem.create(user_id: 2, food_id: 46)
+ShoppingListItem.create(user_id: 2, food_id: 36)
+ShoppingListItem.create(user_id: 2, food_id: 26)
 
-# ShoppingListItem.create(user_id: 2, food_id: 311)
-# ShoppingListItem.create(user_id: 2, food_id: 215)
-# ShoppingListItem.create(user_id: 2, food_id: 218)
-
-# ShoppingListItem.create(user_id: 3, food_id: 224)
-# ShoppingListItem.create(user_id: 3, food_id: 230)
-# ShoppingListItem.create(user_id: 3, food_id: 249)
-# ShoppingListItem.create(user_id: 3, food_id: 240)
-# ShoppingListItem.create(user_id: 3, food_id: 300)
+ShoppingListItem.create(user_id: 3, food_id: 27)
+ShoppingListItem.create(user_id: 3, food_id: 39)
+ShoppingListItem.create(user_id: 3, food_id: 40)
+ShoppingListItem.create(user_id: 3, food_id: 27)
 

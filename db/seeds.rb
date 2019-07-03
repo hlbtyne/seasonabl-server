@@ -694,41 +694,42 @@ seasons = [
     }
 ]
 
-foods.each do |food|
-    Food.create(name: food[:name], image: food[:image])
-end
+# foods.each do |food|
+#     food = Food.create(name: food[:name], image: food[:image])
+# end
 
-months.each do |month|
-    Month.create(name: month)
-end
+# months.each do |month|
+#     Month.create(name: month)
+# end
 
-seasons.each do |season|
-    this_month = Month.all.find{ |month| month[:name] == season[:month] }
-    m_id = this_month[:id]
-    season[:foods].each do |food|
-        this_food = Food.all.find{ |f| f[:name] == food }
-        f_id = this_food[:id]
-        FoodMonth.create(food_id: f_id, month_id: m_id)
-    end
-end
+# seasons.each do |season|
+#     this_month = Month.all.find{ |month| month[:name] == season[:month] }
+#     m_id = this_month[:id]
+#     season[:foods].each do |food|
+#         this_food = Food.all.find{ |f| f[:name] == food }
+#         f_id = this_food[:id]
+#         FoodMonth.create(food_id: f_id, month_id: m_id)
+#     end
+# end
 
-harriet = User.create(name: "Harriet", password: "harriet")
-dunia = User.create(name: "Dunia", password: "dunia")
-xabi = User.create(name: "Xabi", password: "xabi")
+# harriet = User.create(name: "Harriet", password: "harriet")
+# dunia = User.create(name: "Dunia", password: "dunia")
+# xabi = User.create(name: "Xabi", password: "xabi")
 
-ShoppingListItem.create(user_id: 1, food_id: 7)
-ShoppingListItem.create(user_id: 1, food_id: 12)
-ShoppingListItem.create(user_id: 1, food_id: 14)
-ShoppingListItem.create(user_id: 1, food_id: 35)
-ShoppingListItem.create(user_id: 1, food_id: 46)
-ShoppingListItem.create(user_id: 1, food_id: 13)
+# require 'json'
+# require 'rest-client'
 
-ShoppingListItem.create(user_id: 2, food_id: 46)
-ShoppingListItem.create(user_id: 2, food_id: 36)
-ShoppingListItem.create(user_id: 2, food_id: 26)
-
-ShoppingListItem.create(user_id: 3, food_id: 27)
-ShoppingListItem.create(user_id: 3, food_id: 39)
-ShoppingListItem.create(user_id: 3, food_id: 40)
-ShoppingListItem.create(user_id: 3, food_id: 27)
-
+# Food.all.each do |food|
+#     url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/findByIngredients?number=10&ignorePantry=true&ingredients=#{food.name}"
+#     response = RestClient.get(url, headers ={"X-RapidAPI-Host": 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com', "X-RapidAPI-Key": '72161c23c9mshff16fb4cfa94eb4p14ebaejsn587b8503e8d3'})
+#     hash = JSON.parse(response)
+#     result = []
+#     test = hash.each do |recipe| 
+#         element = {title: recipe["title"], missedIngredients: recipe["missedIngredients"], usedIngredients: recipe["usedIngredients"]}
+#         result << element
+#     end
+#     result.each do |recipe|
+#         recipe = Recipe.create(title: recipe[:title])
+#         RecipeIngredient.create(food_id: food.id, recipe_id: recipe.id)
+#     end
+# end

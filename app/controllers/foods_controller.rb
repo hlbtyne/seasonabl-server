@@ -8,7 +8,7 @@ class FoodsController < ApplicationController
     def show
         food = Food.find_by(id: params[:id])
         if food
-            render json: food
+            render json: food, include: :recipes
         else
             render json: { error: "Ingredient not found" }, status: 404
         end

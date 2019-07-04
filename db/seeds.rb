@@ -1,9 +1,7 @@
 foods = [
     {name: "Apple", image:"https://images.unsplash.com/photo-1505872342847-6dbb5e76cd31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
-    {name: "Apricot", image:"https://images.unsplash.com/photo-1552417569-262c0e72f374?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=966&q=80"},
     {name: "Asparagus", image:"https://images.unsplash.com/photo-1555919808-a3635c28ac77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"},
     {name: "Aubergine", image:"https://images.pexels.com/photos/321551/pexels-photo-321551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
-    {name: "Banana", image:"https://images.pexels.com/photos/365810/pexels-photo-365810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
     {name: "Basil", image:"https://images.unsplash.com/photo-1536777206078-5e694d16c678?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
     {name: "Beef", image:"https://images.unsplash.com/photo-1448907503123-67254d59ca4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80"},
     {name: "Beetroot", image:"https://images.unsplash.com/photo-1533231040102-5ec7a63e6d0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"},
@@ -24,7 +22,6 @@ foods = [
     {name: "Chestnut", image:"https://cdn.pixabay.com/photo/2016/09/28/17/48/chestnut-1701045_960_720.jpg"},
     {name: "Chicken", image:"https://www.simplyrecipes.com/wp-content/uploads/2015/09/roasted-chicken-apricot-glaze-horiz-a-1500.jpg"},
     {name: "Chicory", image:"https://www.bbcgoodfood.com/sites/default/files/glossary/chicory.jpg"},
-    {name: "Clementine", image:"https://images.unsplash.com/photo-1459663296021-50769c04b149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
     {name: "Cod", image:"https://img.taste.com.au/iP1FrDcO/taste/2016/11/oven-roasted-cod-with-mustard-crust-11330-1.jpeg"},
     {name: "Courgette", image:"https://images.pexels.com/photos/128420/pexels-photo-128420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
     {name: "Courgette flower", image:"http://tuscantraveler.com/wordpress/wp-content/uploads/2015/06/zucchiniflowers1.jpg"},
@@ -32,16 +29,13 @@ foods = [
     {name: "Crab apple", image:"https://mrsportlyskitchen.files.wordpress.com/2016/08/basket-copy.jpg"},
     {name: "Cranberry", image:"https://images.pexels.com/photos/139917/pexels-photo-139917.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"},
     {name: "Damson", image: "https://images.pexels.com/photos/209378/pexels-photo-209378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
-    {name: "Date", image:"https://images.unsplash.com/photo-1537201872643-ff006e1f016f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
     {name: "Duck", image:"https://gbc-cdn-public-media.azureedge.net/img24404.1426x713.jpg"},
     {name: "Elderberries", image:"https://www.sciencedaily.com/images/2019/04/190423133644_1_540x360.jpg"},
     {name: "Fennel", image:"https://gbc-cdn-public-media.azureedge.net/img26518.640x360.jpg"},
-    {name: "Fig", image:"https://images.unsplash.com/photo-1557837201-38eaf28b3031?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"},
     {name: "Garlic", image:"https://images.unsplash.com/photo-1540148426945-6cf22a6b2383?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
     {name: "Globe artichoke", image:"https://images.unsplash.com/photo-1518735869015-566a18eae4be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1069&q=80"},
     {name: "Goose", image:"https://www.raymondblanc.com/wp-content/uploads/2018/11/Raymond_Blanc_Web_Winter18-165-e1544701589607.jpg"},
     {name: "Gooseberry", image:"https://www.burmaspice.com/wp-content/uploads/2017/06/Cherry-Plum-for-Sale-480x320.jpg"},
-    {name: "Grapefruit", image:"https://images.unsplash.com/photo-1512580344356-fd2f966fbeae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"},
     {name: "Grouse", image:"https://gbc.blob.core.windows.net/media/img43204.jpg"},
     {name: "Guinea fowl", image:"https://images.eatsmarter.com/sites/default/files/styles/920x690/public/guinea-fowl-with-pears-and-dates-617766.jpg"},
     {name: "Halibut", image:"https://assets.epicurious.com/photos/54dcdff74f77a310045d2bee/master/pass/51263770_pan-roasted-halibut_1x1.jpg"},
@@ -60,10 +54,8 @@ foods = [
     {name: "Marrow", image:"https://www.simplyseed.co.uk/user/products/Marrow%20Bush%20Baby.jpg"},
     {name: "Mint", image:"https://images.unsplash.com/photo-1509727841791-40d09ad9b7fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
     {name: "Mussels", image:"https://images.unsplash.com/photo-1466553556096-7e2c49388e34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"},
-    {name: "Nectarine", image:"http://rainbow-foods.org/wp-content/uploads/2017/06/nectarines.jpg"},
     {name: "New potatoes", image:"https://pcdn.columbian.com/wp-content/uploads/2018/06/0622_WKD_Market-Fresh-new-potatoes.jpg"},
     {name: "Onion", image:"https://images.unsplash.com/photo-1508747703725-719777637510?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"},
-    {name: "Orange", image:"https://images.unsplash.com/photo-1476523165843-79f78d654922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"},
     {name: "Oyster", image:"https://images.unsplash.com/photo-1515503249716-e0175c9d8fab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"},
     {name: "Pak choi", image:"https://sakata.co.za/wp-content/uploads/2015/07/JOI-CHOI.jpg"},
     {name: "Parsnip", image:"https://suttons.s3.amazonaws.com/p/VEPAR35097_3.jpg"},
@@ -72,7 +64,6 @@ foods = [
     {name: "Peas", image:"https://images.pexels.com/photos/255469/pexels-photo-255469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
     {name: "Pepper", image:"https://images.pexels.com/photos/128536/pexels-photo-128536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
     {name: "Plum", image:"https://images.unsplash.com/photo-1560287820-f71eda3d75c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"},
-    {name: "Pomegranate", image:"https://images.unsplash.com/photo-1541344999736-83eca272f6fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"},
     {name: "Pork", image:"https://images.unsplash.com/photo-1523986490752-c28064f26be3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"},
     {name: "Potato", image:"https://images.pexels.com/photos/162763/delicious-garnish-potatoes-fried-162763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"},
     {name: "Pumpkin", image:"https://images.unsplash.com/photo-1507637246364-d8fce4a9850a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
@@ -103,11 +94,59 @@ foods = [
     {name: "Turnip", image:"https://www.daringgourmet.com/wp-content/uploads/2016/08/Pickled-Turnips-6.jpg"},
     {name: "Venison", image:"https://www.foodrepublic.com/wp-content/uploads/2016/04/rackofvenison.jpg"},
     {name: "Watercress", image:"https://assets.bonappetit.com/photos/589cd21605f7121026acb5d3/16:9/w_1200,c_limit/watercress-salad-with-mustard-vinaigrette.jpg"},
-    {name: "Watermelon", image:"https://images.pexels.com/photos/1068534/pexels-photo-1068534.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"},
     {name: "Whiting", image:"https://www.goodfood.com.au/content/dam/images/g/s/z/v/5/h/image.related.wideLandscape.940x529.gszu0i.png/1481673093856.jpg"},
 ]
 
-months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+months = [
+    {
+        name: "January",
+        image: "https://images.unsplash.com/photo-1549703521-4428fc82344d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        name: "February",
+        image: "https://images.unsplash.com/photo-1560351885-6fb89f97f873?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+    },
+    {
+        name: "March",
+        image: "https://images.unsplash.com/photo-1544010355-7f9b7edd07af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
+    },
+    {
+        name: "April",
+        image: "https://images.unsplash.com/photo-1490072978022-b167e41f8e6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80"
+    },
+    {
+        name: "May",
+        image: "https://images.unsplash.com/photo-1555100250-871c1f166ad1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+    },
+    {
+        name: "June",
+        image: "https://images.unsplash.com/photo-1471194402529-8e0f5a675de6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+    },
+    {
+        name: "July",
+        image: "https://images.unsplash.com/photo-1536235635699-370e8047ac1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+    },
+    {
+        name: "August",
+        image: "https://images.unsplash.com/photo-1509885995320-e12bdf1f2204?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+    },
+    {
+        name: "September",
+        image: "https://gbc-cdn-public-media.azureedge.net/img48787.1426x713.jpg"
+    },
+    {
+        name: "October",
+        image: "https://images.unsplash.com/photo-1539567601-bf304c363f16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80"
+    },
+    {
+        name: "November",
+        image: "https://images.unsplash.com/photo-1530271899533-f4fd8365a374?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80"
+    },
+    {
+        name: "December",
+        image: "https://cdn.shopify.com/s/files/1/0942/8734/products/s689395212777131806_p167_i1_w1024.jpeg?v=1441889336"
+    }
+]
 
 seasons = [
     {
@@ -126,7 +165,6 @@ seasons = [
             "Chicken",
             "Chicory",
             "Cod",
-            "Date",
             "Goose",
             "Jerusalem artichoke",
             "Kale",
@@ -561,7 +599,6 @@ seasons = [
             "Cranberry",
             "Duck",
             "Elderberries",
-            "Fig",
             "Garlic",
             "Globe artichoke",
             "Goose",
@@ -614,7 +651,6 @@ seasons = [
             "Chicken",
             "Crab",
             "Cranberry",
-            "Date",
             "Duck",
             "Globe artichoke",
             "Goose",
@@ -666,7 +702,6 @@ seasons = [
             "Cranberry",
             "Duck",
             "Goose",
-            "Grapefruit",
             "Grouse",
             "Jerusalem artichoke",
             "Kale",
@@ -694,42 +729,42 @@ seasons = [
     }
 ]
 
-# foods.each do |food|
-#     food = Food.create(name: food[:name], image: food[:image])
-# end
+foods.each do |food|
+    food = Food.create(name: food[:name], image: food[:image])
+end
 
-# months.each do |month|
-#     Month.create(name: month)
-# end
+months.each do |month|
+    Month.create(name: month[:name], image: month[:image])
+end
 
-# seasons.each do |season|
-#     this_month = Month.all.find{ |month| month[:name] == season[:month] }
-#     m_id = this_month[:id]
-#     season[:foods].each do |food|
-#         this_food = Food.all.find{ |f| f[:name] == food }
-#         f_id = this_food[:id]
-#         FoodMonth.create(food_id: f_id, month_id: m_id)
-#     end
-# end
+seasons.each do |season|
+    this_month = Month.all.find{ |month| month[:name] == season[:month] }
+    m_id = this_month[:id]
+    season[:foods].each do |food|
+        this_food = Food.all.find{ |f| f[:name] == food }
+        f_id = this_food[:id]
+        FoodMonth.create(food_id: f_id, month_id: m_id)
+    end
+end
 
-# harriet = User.create(name: "Harriet", password: "harriet")
-# dunia = User.create(name: "Dunia", password: "dunia")
-# xabi = User.create(name: "Xabi", password: "xabi")
+harriet = User.create(name: "Harriet", password: "harriet")
+dunia = User.create(name: "Dunia", password: "dunia")
+xabi = User.create(name: "Xabi", password: "xabi")
 
-# require 'json'
-# require 'rest-client'
+require 'json'
+require 'rest-client'
 
-# Food.all.each do |food|
-#     url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/findByIngredients?number=10&ignorePantry=true&ingredients=#{food.name}"
-#     response = RestClient.get(url, headers ={"X-RapidAPI-Host": 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com', "X-RapidAPI-Key": '72161c23c9mshff16fb4cfa94eb4p14ebaejsn587b8503e8d3'})
-#     hash = JSON.parse(response)
-#     result = []
-#     test = hash.each do |recipe| 
-#         element = {title: recipe["title"], missedIngredients: recipe["missedIngredients"], usedIngredients: recipe["usedIngredients"]}
-#         result << element
-#     end
-#     result.each do |recipe|
-#         recipe = Recipe.create(title: recipe[:title])
-#         RecipeIngredient.create(food_id: food.id, recipe_id: recipe.id)
-#     end
-# end
+Food.all.each do |food|
+    url = "https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/findByIngredients?number=10&ignorePantry=true&ingredients=#{food.name}"
+    response = RestClient.get(url, headers ={"X-RapidAPI-Host": 'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com', "X-RapidAPI-Key": '72161c23c9mshff16fb4cfa94eb4p14ebaejsn587b8503e8d3'})
+    hash = JSON.parse(response)
+    result = []
+    test = hash.each do |recipe| 
+        element = {title: recipe["title"], missedIngredients: recipe["missedIngredients"], usedIngredients: recipe["usedIngredients"]}
+        result << element
+    end
+    result.each do |recipe|
+        recipe = Recipe.create(title: recipe[:title])
+        RecipeIngredient.create(food_id: food.id, recipe_id: recipe.id)
+    end
+end

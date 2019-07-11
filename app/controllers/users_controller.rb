@@ -14,12 +14,16 @@ class UsersController < ApplicationController
     end
 
     def create 
-        newUser = User.new(name: params[:name], password: params[:password])
-
-        if newUser.save
-            render json: newUser
+        # byebug
+        if User.find_by(name: params[:name])
+            render json: {error: "The username is already taken. Choose another."}, status: 400
         else
-            render json: {error: "User not valid."}, status: 400
+            newUser = User.new(name: params[:name], password: params[:password])
+            if newUser.save
+                render json: newUser
+            else
+                render json: {error: "User not valid."}, status: 400
+            end
         end
     end 
 

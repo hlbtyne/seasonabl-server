@@ -15,7 +15,7 @@ class UsersController < ApplicationController
 
     def create 
         newUser = User.new(name: params[:name], password: params[:password])
-        
+
         if newUser.save
             render json: newUser
         else
@@ -31,12 +31,6 @@ class UsersController < ApplicationController
             render json: { error: "Invalid username/password combination" }, status: 401
         end
     end
-
-    # def add_recipe
-    #     user = User.find_by(id: params[:id])
-    #     user.recipe.build({title: xxx, instructions: xxx})
-    #     user.save
-    # end
 
     def validate
         user = current_user

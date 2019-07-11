@@ -5,4 +5,7 @@ class User < ApplicationRecord
     has_many :recipes, through: :user_recipes
 
     has_secure_password
+
+    # validates [:name, :password], presence: true
+    # validates :name, uniqueness: { case_sensitive: true }
 end
